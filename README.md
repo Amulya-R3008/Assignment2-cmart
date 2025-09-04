@@ -61,19 +61,19 @@ Each file contains **100 synthetic trades** with the following fields:
 
 ## Steps Performed
 
-### 1️⃣ Data Ingestion
+### 1️. Data Ingestion
 - Loaded all six file formats into **pandas DataFrames**.  
 - Verified consistency across datasets by checking **column names** and **data types**.  
 
-### 2️⃣ Data Cleaning & Transformation
+### 2️. Data Cleaning & Transformation
 - Converted `DeliveryStart` and `DeliveryEnd` columns to **datetime** for accurate date operations.  
 
-### 3️⃣ Exploratory Data Analysis (EDA)
+### 3️. Exploratory Data Analysis (EDA)
 - Average price per commodity  
 - Distribution of trades by currency  
 - Trade periodicity breakdown (Daily, Weekly, Monthly)  
 
-### 4️⃣ Data Visualization
+### 4️. Data Visualization
 - **Bar chart:** Volume by trade type  
 - **Pie chart:** Trades by currency  
 - **Line chart:** Average price trend by delivery start date  
